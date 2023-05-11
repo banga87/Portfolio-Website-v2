@@ -246,8 +246,12 @@ font-size: 12px;
   text-align: center;
 }
 
-img {
+.skill-img {
   max-height: 72px;
+}
+
+.project-gif {
+  width: 100%;
 }
 
 .media {
