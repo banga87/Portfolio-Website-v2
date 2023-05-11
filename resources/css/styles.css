@@ -234,8 +234,16 @@ font-style: italic;
 font-size: 12px;
 }
 
-.skills-img-box {
-  display: inline-block; 
+.figure-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.figure-container .figure {
+  flex-basis: calc(50% - 10px);
+  margin: 5px;
+  text-align: center;
 }
 
 img {
@@ -280,5 +288,8 @@ img {
       font-size: 52px;
       line-height: 54px;
       overflow: hidden;
+  }
+  .figure {
+    flex-basis: 100%;
   }
 }
